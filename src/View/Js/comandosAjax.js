@@ -119,7 +119,7 @@ function excluirConta(){
         success: function (response) {
             var bool = JSON.parse(response);
             if (bool === true) {
-                window.location.href = HOME + 'Login';
+                window.location.href = HOME + 'Sair';
                 alert("Excluido!");
                 console.log("Excluido");
             } else {
