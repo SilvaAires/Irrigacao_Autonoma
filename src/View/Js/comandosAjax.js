@@ -180,7 +180,7 @@ $("#btnCadastrar").click(function () {
         success: function (response) {
             var boolean = JSON.parse(response);
             if(boolean){
-                window.location.href = HOME + 'Home';
+                window.location.href = HOME + 'Login';
             }else{
                 $("#mensagemErro").text('Apelido ou senha incorretos.');
             }
