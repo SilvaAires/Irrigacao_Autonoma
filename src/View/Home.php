@@ -1,6 +1,7 @@
 <?php
     include_once __DIR__ . '/../Controller/DAODadoEsp.php';
     include_once __DIR__ . '/../Rotas/Constantes.php';
+    //So conferindo o cadastro
     if (session_status() == PHP_SESSION_NONE) {
         session_start();
     }
